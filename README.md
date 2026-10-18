@@ -1,6 +1,8 @@
-# Financial Fraud Detection: Risk-Flag Model and Power BI Dashboard
+# Financial Fraud Detection: Risk-Flag Model, Power BI Dashboard and Streamlit App
 
-A model that flags fraudulent card and online transactions, with a Power BI dashboard for a business reader. This is an internship and portfolio project (Zidio Development) by Akash Vaishnav.
+**Live app:** [Financial Fraud Risk Checker](https://financial-fraud-risk-checker.streamlit.app/)
+
+A model that flags fraudulent card and online transactions, with a Power BI dashboard for a business reader and a Streamlit app for live testing. This is an internship and portfolio project (Zidio Development) by Akash Vaishnav.
 
 ## Result (test set, 1,250 transactions)
 
