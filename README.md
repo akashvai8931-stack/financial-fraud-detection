@@ -56,8 +56,4 @@ report/                    final project report (PDF)
 
 ## Report
 
-The full report is in [report/Fraud_Detection_Final_Report_Final.pdf](report/Fraud_Detection_Final_Report_Final.pdf).
-
-## Tools
-
-Python (JupyterLab, pandas, scikit-learn, XGBoost) and Power BI Desktop.
+The full report (22 pages, with an appendix about the Streamlit app) is in [report/Fraud_Detection_Final_Report_with_Streamlit.pdf](report/Fraud_Detection_Final_Report_with_Streamlit.pdf).
