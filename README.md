@@ -25,6 +25,7 @@ The model catches every fraud in the test set, but about three of every four ale
 - Compared Logistic Regression, Random Forest and XGBoost. They scored the same, so the simplest model was chosen: Logistic Regression with balanced class weights on the three risk flags.
 - Handled class imbalance, chose a decision threshold, and explained the business trade-off.
 - Built a Power BI dashboard (4 pages).
+- Built a Streamlit app that anyone can try online (see the live app link above).
 
 ## Honest limits
 
@@ -46,14 +47,20 @@ requirements.txt           Python packages
 data/                      datasets and notes on which were used or rejected
 dashboard/                 Power BI file (fraud_dashboard.pbix) and page guide
 report/                    final project report (PDF)
+streamlit_app/             live Streamlit app (app.py, model copy, requirements)
 ```
 
 ## How to run
 
 1. Install the packages: `pip install -r requirements.txt`
-2. Open `01_fraud_detection.ipynb` in JupyterLab and run the cells from top to bottom. If the notebook cannot find a data file, change the file path in the first cells to where you saved the `data` folder.
+2. Open `01_fraud_detection.ipynb` in JupyterLab and run the cells from top to bottom. Run it from the repository folder, so the short paths such as `data/financial_fraud_detection_dataset.csv` work.
 3. Open `dashboard/fraud_dashboard.pbix` with Power BI Desktop (Windows).
+4. Or try the app online without installing anything: [Financial Fraud Risk Checker](https://financial-fraud-risk-checker.streamlit.app/)
 
 ## Report
 
 The full report (22 pages, with an appendix about the Streamlit app) is in [report/Fraud_Detection_Final_Report_with_Streamlit.pdf](report/Fraud_Detection_Final_Report_with_Streamlit.pdf).
+
+## Tools
+
+Python (JupyterLab, pandas, scikit-learn, XGBoost), Power BI Desktop and Streamlit.
